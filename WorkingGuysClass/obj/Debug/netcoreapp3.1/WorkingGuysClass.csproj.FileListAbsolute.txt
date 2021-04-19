@@ -1,0 +1,12 @@
+/Users/roccopaccione/Projects/WorkingGuysClass/WorkingGuysClass/bin/Debug/netcoreapp3.1/WorkingGuysClass.deps.json
+/Users/roccopaccione/Projects/WorkingGuysClass/WorkingGuysClass/bin/Debug/netcoreapp3.1/WorkingGuysClass.runtimeconfig.json
+/Users/roccopaccione/Projects/WorkingGuysClass/WorkingGuysClass/bin/Debug/netcoreapp3.1/WorkingGuysClass.runtimeconfig.dev.json
+/Users/roccopaccione/Projects/WorkingGuysClass/WorkingGuysClass/bin/Debug/netcoreapp3.1/WorkingGuysClass.dll
+/Users/roccopaccione/Projects/WorkingGuysClass/WorkingGuysClass/bin/Debug/netcoreapp3.1/WorkingGuysClass.pdb
+/Users/roccopaccione/Projects/WorkingGuysClass/WorkingGuysClass/obj/Debug/netcoreapp3.1/WorkingGuysClass.csprojAssemblyReference.cache
+/Users/roccopaccione/Projects/WorkingGuysClass/WorkingGuysClass/obj/Debug/netcoreapp3.1/WorkingGuysClass.AssemblyInfoInputs.cache
+/Users/roccopaccione/Projects/WorkingGuysClass/WorkingGuysClass/obj/Debug/netcoreapp3.1/WorkingGuysClass.AssemblyInfo.cs
+/Users/roccopaccione/Projects/WorkingGuysClass/WorkingGuysClass/obj/Debug/netcoreapp3.1/WorkingGuysClass.csproj.CoreCompileInputs.cache
+/Users/roccopaccione/Projects/WorkingGuysClass/WorkingGuysClass/obj/Debug/netcoreapp3.1/WorkingGuysClass.dll
+/Users/roccopaccione/Projects/WorkingGuysClass/WorkingGuysClass/obj/Debug/netcoreapp3.1/WorkingGuysClass.pdb
+/Users/roccopaccione/Projects/WorkingGuysClass/WorkingGuysClass/obj/Debug/netcoreapp3.1/WorkingGuysClass.genruntimeconfig.cache
