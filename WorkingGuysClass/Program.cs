@@ -29,11 +29,9 @@ namespace WorkingGuysClass
         }
         static void Main(string[] args)
         {
-            Guy John = new Guy();
-            John.Name = "John";
-            John.Cash = 40;
+            Guy John = new Guy() { Cash = 50, Name = "John" };
 
-            Console.WriteLine(John.Name);
+            Console.WriteLine(John.GiveCash(50));
         }
     }
 }
