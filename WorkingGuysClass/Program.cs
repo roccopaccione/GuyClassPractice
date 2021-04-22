@@ -31,6 +31,27 @@ namespace WorkingGuysClass
         {
             Guy John = new Guy() { Cash = 50, Name = "John" };
 
+            Guy bob = new Guy() { Name = "Bob", Cash = 100 };
+
+            while (true)
+            {
+                bob.WriteMyInfo();
+                John.WriteMyInfo();
+
+                Console.WriteLine("Enter amount: ");
+                string howMuch = Console.ReadLine();
+                if (howMuch == "") return;
+                if (int.TryParse(howMuch, out int amount))
+                {
+                    Console.WriteLine("Who should give the cash: ");
+                    string whichGuy = Console.ReadLine();
+                    if (whichGuy == "Joe")
+                    {
+                        
+                    }
+                }
+            }
+
             Console.WriteLine(John.GiveCash(50));
         }
     }
