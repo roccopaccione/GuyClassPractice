@@ -27,16 +27,27 @@ namespace WorkingGuysClass
             Cash -= amount;
             return amount;
         }
+        public void RecieveCash(int amount)
+        {
+            if (amount <= 0)
+            {
+                Console.WriteLine(Name + " says: " + amount + " isn't an amount i'll take");
+            }
+            else
+            {
+                Cash += amount;
+            }
+        }
         static void Main(string[] args)
         {
-            Guy John = new Guy() { Cash = 50, Name = "John" };
+            Guy john = new Guy() { Cash = 50, Name = "John" };
 
             Guy bob = new Guy() { Name = "Bob", Cash = 100 };
 
             while (true)
             {
                 bob.WriteMyInfo();
-                John.WriteMyInfo();
+                john.WriteMyInfo();
 
                 Console.WriteLine("Enter amount: ");
                 string howMuch = Console.ReadLine();
@@ -45,14 +56,15 @@ namespace WorkingGuysClass
                 {
                     Console.WriteLine("Who should give the cash: ");
                     string whichGuy = Console.ReadLine();
-                    if (whichGuy == "Joe")
+                    if (whichGuy == "john")
                     {
-                        
+                        int cashGiven = john.GiveCash(amount);
+                        bob.RecieveCash(cashGiven);
                     }
                 }
             }
 
-            Console.WriteLine(John.GiveCash(50));
+            Console.WriteLine(john.GiveCash(50));
         }
     }
 }
