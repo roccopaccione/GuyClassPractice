@@ -27,7 +27,7 @@ namespace WorkingGuysClass
             Cash -= amount;
             return amount;
         }
-        public void RecieveCash(int amount)
+        public void ReceiveCash(int amount)
         {
             if (amount <= 0)
             {
@@ -59,12 +59,23 @@ namespace WorkingGuysClass
                     if (whichGuy == "john")
                     {
                         int cashGiven = john.GiveCash(amount);
-                        bob.RecieveCash(cashGiven);
+                        bob.ReceiveCash(cashGiven);
+                    }
+                    else if (whichGuy == "bob")
+                    {
+                        int cashGiven = bob.GiveCash(amount);
+                        john.ReceiveCash(cashGiven);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Please enter 'john' or 'bob'");
                     }
                 }
+                else
+                {
+                    Console.WriteLine("Please enter an amount (or a blank to exit).");
+                }
             }
-
-            Console.WriteLine(john.GiveCash(50));
         }
     }
 }
